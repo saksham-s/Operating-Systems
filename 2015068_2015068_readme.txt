@@ -1,0 +1,18 @@
+AUTHORS - 
+
+	1. Saksham Suri -> 2015082
+	2. Viraj Parimi - 2015068
+
+
+IMPORTANT -
+
+1. Dont append file type like ".txt" anywhere. Code takes care of that itself.
+
+2. Minimum File System Size = 50KB ( As have we super block, inode bitmap, data bitmap, inodes and data blocks occupying fixed space as mentioned in the code usind preprocessing directives )
+
+3. Inode Entry has the following things ->
+	a. File Name
+	b. Starting Block Number
+	c. Ending Block Number
+
+	(b.) and (c.) exist as tuples inorder to support non-contiguous data.
