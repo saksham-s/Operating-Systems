@@ -1,0 +1,17 @@
+Num Queues
+4
+Time slice
+5
+10
+15
+20
+Boost
+25
+NumberofProcesses
+5
+ProcessInfo(bursttime,arrival)
+60 0
+30 0
+40 5
+50 10
+40 15
